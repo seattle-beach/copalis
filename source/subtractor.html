@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Copalis - Subtractor!</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="application/javascript" src="subtractor.js"></script>
+  </head>
+
+  <body>
+    <div class="header"><a href="index.html">Home</a></div>
+    <div class="content-wrapper">
+
+      <div class="content">
+        <form onsubmit="calculate();return false" style="display:inline-block">
+          <input type="number" id="first-number">
+          -
+          <input type="number" id="second-number">
+          <input type="submit" value="=">
+        </form>
+        <span id="result"></span>
+      </div>
+
+    </div>
+  </body>
+</html>
