@@ -1,4 +1,7 @@
 ## TO DO
+I'm thinking each group makes their own page, meant to showcase a small HTML/Javascript app (see examples at bottom of Readme). So they get to work in a reasonably safe sandbox, but the same actual trunk and app instance. So a bit of exposure to being on a team.
+
+Here's what I figure is left to do:
 - Create a sample mini app - I made "Adder" and "Subtractor", but we could probably be more creative/give them better examples
 - Create a Concourse pipeline
 - Code review, please!
