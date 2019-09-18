@@ -14,7 +14,7 @@ jobs:
       run: curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github" | tar -zx
 
     - name: Log in to PWS
-      run: cf login -a api.run.pivotal.io -u ${{ secrets.CF_USERNAME }} -p ${{ secrets.CF_PASSWORD }} -o "Black Girls Code" -s seattle
+      run: ./cf login -a api.run.pivotal.io -u ${{ secrets.CF_USERNAME }} -p ${{ secrets.CF_PASSWORD }} -o "Black Girls Code" -s seattle
       
     - name: Deploy app
-      run: cf push
+      run: ./cf push
