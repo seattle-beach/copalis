@@ -9,10 +9,13 @@ Here's what I figure is left to do:
 Also, should we do some sort of HTML templating?
 
 ## Mini app ideas:
+- Calculator
 - Tic tac toe
-- To-do app
-- Note-taking app
+- To-do
+- Note-taking
+- Pomodoro
 - Book tracker - keep a list of the books you've read, the genre, and any notes
+- Recipe book
 - A simple game, which can make use of `onkeydown`?
 - ...
 - please help!
