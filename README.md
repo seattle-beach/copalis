@@ -22,6 +22,7 @@ Also, should we do some sort of HTML templating?
 - Recipe book
 - A simple game, which can make use of `onkeydown`?
 - Markov chain
+- Graphics
 - Rhyming stuff
 - ...
 - please help!
