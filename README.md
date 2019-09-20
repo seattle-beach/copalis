@@ -21,6 +21,7 @@ Also, should we do some sort of HTML templating?
 - Book tracker - keep a list of the books you've read, the genre, and any notes
 - Recipe book
 - A simple game, which can make use of `onkeydown`?
+- Markov chain
 - ...
 - please help!
 
