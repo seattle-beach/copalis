@@ -1,3 +1,7 @@
+# copalis
+
+https://copalis.cfapps.io
+
 ## TO DO
 I'm thinking each group makes their own page, meant to showcase a small HTML/Javascript app (see examples at bottom of Readme). So they get to work in a reasonably safe sandbox, but the same actual trunk and app instance. So a bit of exposure to being on a team.
 
