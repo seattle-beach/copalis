@@ -1,5 +1,6 @@
+@import url("base.css");
+
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
@@ -47,5 +48,21 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.root {
+  width: 100%;
+}
+
+table {
+  width: 50%;
+
+}
+
+.cell {
+  background-color: yellow;
+  border-style: solid;
+  border-color: blue purple;
+  border-width: 20px;
 }
 
