@@ -30,15 +30,14 @@ const Ava = () => {
   };
 
   return (
-    <React.Fragment>
-      <form style={formStyle}>
+    <div class="container">
+      <div id="adder">
         <input value={firstNumber} onChange={changeFirstNumber} />
         +
         <input value={secondNumber} onChange={changesecondNumber}/>
-        =
-      </form>
-      <span>{result}</span>
-    </React.Fragment>
+        = {result}
+      </div>
+    </div>
   );
 };
 
