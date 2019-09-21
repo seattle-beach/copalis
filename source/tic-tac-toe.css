@@ -49,3 +49,19 @@ ol, ul {
   margin-left: 20px;
 }
 
+.root {
+  width: 100%;
+}
+
+table {
+  width: 50%;
+
+}
+
+.cell {
+  background-color: yellow;
+  border-style: solid;
+  border-color: blue purple;
+  border-width: 20px;
+}
+
