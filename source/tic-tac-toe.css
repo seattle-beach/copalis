@@ -62,6 +62,8 @@ table {
   background-color: yellow;
   border-style: solid;
   border-color: blue purple;
-  border-width: 20px;
+  border-width: 10px;
+  font-size: 300%;
+  width: 50px;
 }
 

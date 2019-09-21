@@ -1,12 +1,28 @@
-function Square(props) {
+person1 = "-";
+person2 = "x";
+
+turn = 1;
+
+function tick(whichSquare) {
+  if(turn === 1) {
+    whichSquare.innerText = person1;
+    turn = 2;
+  } else {
+    whichSquare.innerText = person2;
+    turn = 1;
+  }
+
+}
+
+/*function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
       {props.value}
     </button>
   );
-}
+}*/
 
-class Board extends React.Component {
+/*class Board extends React.Component {
   renderSquare(i) {
     return (
       <Square
@@ -142,3 +158,4 @@ function calculateWinner(squares) {
   }
   return null;
 }
+*/
