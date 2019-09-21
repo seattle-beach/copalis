@@ -4,50 +4,46 @@
     <meta charset="UTF-8" />
     <title>Add React in One Minute</title>
     <link href="tic-tac-toe.css" rel="stylesheet" type="text/css" />
+
+    <script src="tic-tac-toe.js" type="text/javascript"></script>
+
   </head>
   <body>
 
     <div id="root">
 
+      <h1>Tik Tak 4</h1>
+
       <table>
-        <tr id="row-1">
-          <td class="cell" id="row-1-cell-1">&nbsp;</td>
-          <td class="cell" id="row-1-cell-2">&nbsp;</td>
-          <td class="cell" id="row-1-cell-3">&nbsp;</td>
-          <td class="cell" id="row-1-cell-4">&nbsp;</td>
+        <tr id="row-1" class="board-row">
+          <td class="cell" id="row-1-cell-1" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-1-cell-2" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-1-cell-3" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-1-cell-4" onclick="tick(this);">&nbsp;</td>
         </tr>
-        <tr id="row-2">
-          <td class="cell" id="row-2-cell-1">&nbsp;</td>
-          <td class="cell" id="row-2-cell-2">&nbsp;</td>
-          <td class="cell" id="row-2-cell-3">&nbsp;</td>
-          <td class="cell" id="row-2-cell-4">&nbsp;</td>
+        <tr id="row-2" class="board-row">
+          <td class="cell" id="row-2-cell-1" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-2-cell-2" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-2-cell-3" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-2-cell-4" onclick="tick(this);">&nbsp;</td>
         </tr>
-        <tr id="row-3">
-          <td class="cell" id="row-3-cell-1">&nbsp;</td>
-          <td class="cell" id="row-3-cell-2">&nbsp;</td>
-          <td class="cell" id="row-3-cell-3">&nbsp;</td>
-          <td class="cell" id="row-3-cell-4">&nbsp;</td>
+        <tr id="row-3" class="board-row">
+          <td class="cell" id="row-3-cell-1" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-3-cell-2" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-3-cell-3" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-3-cell-4" onclick="tick(this);">&nbsp;</td>
         </tr>
 
-        <tr id="row-4">
-          <td class="cell" id="row-4-cell-1">&nbsp;</td>
-          <td class="cell" id="row-4-cell-2">&nbsp;</td>
-          <td class="cell" id="row-4-cell-3">&nbsp;</td>
-          <td class="cell" id="row-4-cell-4">&nbsp;</td>
+        <tr id="row-4" class="board-row">
+          <td class="cell" id="row-4-cell-1" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-4-cell-2" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-4-cell-3" onclick="tick(this);">&nbsp;</td>
+          <td class="cell" id="row-4-cell-4" onclick="tick(this);">&nbsp;</td>
         </tr>
       </table>
   
 
     </div>
-
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-    <!-- Load our React component. -->
-    <script src="tic-tac-toe.js" type="text/babel"></script>
 
   </body>
 </html>
