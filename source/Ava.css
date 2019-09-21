@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+body {
+    background-color: #E4E3FF;
+}
+
+#adder {
+    align-items: center;
+}
